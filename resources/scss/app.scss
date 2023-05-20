@@ -1,11 +1,111 @@
 @import '~bootstrap/scss/bootstrap';
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+// -----------------------------------------------
+// dashboard
+
+// section carousel
+.section-carousel {
+    background-color: #11111f74;
+}
+    .carousel{
+        max-width: 500px;
+        }
+// /section carousel
+
+// section width max
+
+.section-full-screen {
+    background-color: #a4a4a4;
+
+
+
+    .column-1{
+        overflow: hidden;
+        img {
+            height: 100%;
+  
+        }
+    }
+
+    .column-2 {
+        border-right: 1px solid black;
+        ul {
+            padding-right: 15px;
+
+        }
+        li {
+            list-style-type: none;
+        }
+    }
+
+    .column-3{
+        border-left: 1px solid black;
+        ul {
+            padding-left: 15px;
+            padding-right: 0;
+        }
+        li {
+            list-style-type: none;
+        }
+    }
+}
+
+// /section width max
+
+// banner
+
+.banner {
+    background-color: #11111f;
+
+    .row {
+        display: flex;
+        justify-content: space-between;
+
+
+        padding-left: 60px;
+        padding-right: 60px;
+        max-width: 1610px;
+        .cont-sx {
+            translate: 0px 7px;
+
+            strong {
+                line-height: 0.50;
+                color: white;
+                font-size: 100px;
+                // margin: -7px 0 -4px 0;
+            }
+        }
+        .cont-dx{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            color: white;
+        }
+    }
+ }
+
+// /banner
+
+
+
+
+// /dashboard
+// -----------------------------------------------
 
 // -----------------------------------------------
 // header 
 // nav
 
 .nav-container {
+    z-index: 10;
     position: sticky;
     top: 0;
     height: 80px;
