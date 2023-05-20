@@ -117,6 +117,10 @@ class ProjectController extends Controller
         return redirect()->route('admin.projects.index');
     }
 
+    public function contact() {
+        return view('admin.contact');
+    }
+
 
     private function validatorDataForm($request) {
         $formData = $request->all();
@@ -132,5 +136,7 @@ class ProjectController extends Controller
         return $validator;
 
     }
+
+
 
 }

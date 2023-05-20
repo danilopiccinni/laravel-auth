@@ -1,1 +1,176 @@
-@import '~bootstrap/scss/bootstrap'
+@import '~bootstrap/scss/bootstrap';
+
+
+// -----------------------------------------------
+// header 
+// nav
+
+.nav-container {
+    position: sticky;
+    top: 0;
+    height: 80px;
+    background-color: #11111f;
+    color: #a4a4a4;
+
+    .nav-bar {
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .nav-sx{
+        display: flex;
+
+        height: 100%;
+        .logo{
+            height: 100%;
+            img{
+                height: 100%;
+            }
+        }
+
+        .near-logo{
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+            strong{
+                font-size: 12px;
+            }
+            span {
+                font-size: 10px;
+            }
+
+
+        }
+
+    }
+
+    .nav-dx{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        gap: 50px;
+
+        .nav-links {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+
+            li{
+                height: 100%;
+                display: flex;
+                align-items: center;
+                list-style-type: none;
+                transition: 0.3s;
+
+                &:hover{
+                    cursor: pointer;
+                    color: white;
+                }
+
+                a{  
+                    display: flex;
+                    align-items: center;
+                    height: 100%;
+                    padding: 0 10px;
+                }
+            }
+        }
+
+        .dropdown{
+            display: flex;
+            align-items: center;
+            padding: 5 25px;
+
+            .dropdown-toggle{
+
+                transition: .3s;
+                &:hover {
+                    color: white;
+                }
+
+                i{
+                    font-size: 30px;
+                    padding: 5 25px;
+                }
+            }
+
+        }
+    }
+}
+
+// /nav
+// /header 
+// -----------------------------------------------
+
+
+// -----------------------------------------------
+// footer
+
+.footer-container{
+    display: flex;
+    align-items: center;
+    min-height: 500px;
+    color: #a4a4a4;;
+    background-color: #11111f;
+
+    .container{
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+
+
+        .footer-sx {
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 15px;
+
+            h3 {
+                color: white;
+            }
+        }
+
+        .footer-dx{
+            display: flex;
+            gap: 50px;
+            flex-wrap: wrap;
+
+            h3 {
+                color: white;
+            }
+
+            ul{
+                list-style-type: none;
+                padding-left: 0;
+
+                li{
+
+                    a {
+                        color: #a4a4a4;
+                        text-decoration: none;
+
+                        &:hover{
+                            color: white;
+                        }
+                    }
+                }
+            }
+
+
+        }
+    }
+
+
+}
+
+
+// /footer
+// -----------------------------------------------
