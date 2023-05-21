@@ -364,15 +364,20 @@
 
 // -----------------------------------------------
 // section cards
-.card {
-    width: 150px;
-    height: 400px;
+
+.section-card-w-sticky {
+
+    .card {
+        width: 150px;
+        height: 400px;
+    }
+    
+    .sticky {
+        position: sticky;
+        top: 120px;
+    }
 }
 
-.sticky {
-    position: sticky;
-    top: 120px;
-}
 // /section cards
 // -----------------------------------------------
 

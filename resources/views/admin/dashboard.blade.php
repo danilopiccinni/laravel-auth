@@ -179,7 +179,7 @@
     </div>
 </section>
 
-<section>
+<section class="section-card-w-sticky">
 
     <div class="container">
         <div class="row row-cols-2">
