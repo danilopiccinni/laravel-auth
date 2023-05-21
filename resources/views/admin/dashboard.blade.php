@@ -179,6 +179,119 @@
     </div>
 </section>
 
+<section>
+
+    <div class="container">
+        <div class="row row-cols-2">
+            <div class="col6 row-cols-2 d-flex flex-wrap gap-3">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="card-link">Card link</a>
+                      <a href="#" class="card-link">Another link</a>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="card-link">Card link</a>
+                      <a href="#" class="card-link">Another link</a>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="card-link">Card link</a>
+                      <a href="#" class="card-link">Another link</a>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="card-link">Card link</a>
+                      <a href="#" class="card-link">Another link</a>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="card-link">Card link</a>
+                      <a href="#" class="card-link">Another link</a>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="card-link">Card link</a>
+                      <a href="#" class="card-link">Another link</a>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="card-link">Card link</a>
+                      <a href="#" class="card-link">Another link</a>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="card-link">Card link</a>
+                      <a href="#" class="card-link">Another link</a>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="card-link">Card link</a>
+                      <a href="#" class="card-link">Another link</a>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="card-link">Card link</a>
+                      <a href="#" class="card-link">Another link</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-4">
+                <div class="sticky">
+                    <div class="sticky-top">
+                        <span class="title">
+                            Focus | Siti web custom realizzati in base alla tua attività
+                        </span>
+                        <p>Vorresti un <strong>sito web personalizzato</strong> sulla tua attività? Desideri farla crescere con l'aiuto di un professionista? Scopri attraverso i <strong>business focus</strong> quale tipologia di sviluppo si adatta di più alla tua attività.</p><p>Richiedendo una <strong>consulenza professionale</strong> ti fornirò, attraverso un'analisi del tuo progetto, una <strong>proposta di sviluppo</strong> basata sulle tue necessità.</p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
 
     <a href="{{ route('admin.projects.index') }}">vai alla lista</a>
 @endsection

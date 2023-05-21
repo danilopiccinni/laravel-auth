@@ -75,6 +75,10 @@
 
                     padding: 50px 10px;
 
+                    &:hover {
+                        cursor: pointer;
+                    }
+
 
 
                     span{
@@ -355,3 +359,13 @@
 
 // /footer
 // -----------------------------------------------
+
+.card {
+    width: 150px;
+    height: 400px;
+}
+
+.sticky {
+    position: sticky;
+    top: 120px;
+}
