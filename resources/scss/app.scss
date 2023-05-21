@@ -491,8 +491,44 @@
         }
     }
 
-
-
-
 // admin.show
+// -----------------------------------------------
+
+
+
+
+// -----------------------------------------------
+// infoForm
+
+
+.section-form {
+
+    .cont-sx {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        .container-social {
+            display: flex;
+            gap: 15px;
+        }
+        i {
+            font-size: 30px;
+        }
+    }
+
+    .cont-dx{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        .cont-input {
+            display: flex;
+            gap: 5px;
+        }
+    }
+
+}
+
+
+// /infoForm
 // -----------------------------------------------
