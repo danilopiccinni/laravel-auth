@@ -1,10 +1,10 @@
 <section class="section-form mt-5">
-
+    
     <div class="container">
         <div class="row">
-            <div class="cont-sx col-12 col-xl-4 col-lg-5">
+            <div class="cont-sx col-12 col-xl-4 col-lg-5  mb-5">
                 <strong class="title">Follow me</strong>
-                <div class="title-desc">Nuovi progetti, esperienze lavorative e idee</div>
+                <span class="title-desc">Nuovi progetti, esperienze lavorative e idee</span>
                 <div class="container-social">
                     <a href="">
                         <i class="fab fa-linkedin-in"></i>
@@ -28,30 +28,28 @@
             </div>
             <div class="cont-dx col-12 col-xl-7 col-lg-7 offset-xl-1">
                 <strong class="title">Rimani aggiornato</strong>
-                <div class="title-desc">Rimani aggiornato su servizi e prodotti per migliorare il tuo business online</div>
+                <span class="title-desc">Rimani aggiornato su servizi e prodotti per migliorare il tuo business online</span>
                 <div>
                     <form action="" method=""> 
-                        <div class="row"> 	
-                            <div class="cont-input col-12 col-sm-6"> 		
-                                <div class="nome">
-                                    <input type="text" name="nome" value="" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false" placeholder="nome">
-                                </div> 		
-                                <div class="email">
-                                    <input type="email" name="email" value="" size="40" aria-required="true" aria-invalid="false" placeholder="indirizzo email *">
-                                </div> 	
-                            </div> 	
-                            <div class="col-12"> 		
-                                <label>
-                                    <input type="checkbox" name="newsletter" value="1" aria-invalid="false">
-                                    <span>Desidero ricevere aggiornamenti inerenti ad offerte ed servizi proposti in base a quando espresso nella 
-                                        <a href="">privacy policy</a>
-                                    </span>
-                                </label>	
-
-                            </div> 	
+                        <div class="cont-input flex-column py-3 gap-1">
+                            <div>
+                                <input type="text" name="nome" value="" size="40" aria-invalid="false" placeholder="nome">
+                            </div>
+                            <div>
+                                <input type="email" name="email" value="" size="40" aria-required="true" aria-invalid="false" placeholder="indirizzo email *">
+                            </div>
+                        </div> 	
+                        <div class="col-12 "> 		
+                            <label class="mb-3">
+                                <input type="checkbox" name="newsletter" value="1" aria-invalid="false">
+                                <span>
+                                    <span>Desidero ricevere aggiornamenti inerenti ad offerte ed servizi proposti in base a quando espresso nella </span> 
+                                    <a href="">privacy policy</a>
+                                </span>
+                            </label>	
                             <div class="col-12"> 		
                                 <div class="container-input-submit">
-                                    <input type="submit" value="rimani aggiornato">
+                                    <input type="submit" value="Rimani aggiornato">
                                 </div> 	
                             </div> 
                         </div> 
@@ -61,3 +59,4 @@
         </div>
     </div>
 </section>
+                            
