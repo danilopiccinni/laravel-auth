@@ -352,6 +352,7 @@
     }
 }
 .wave-footer {
+    background-color: #f6f6f6;
     width: 100%;
     height: 50px;
 }
@@ -360,6 +361,9 @@
 // /footer
 // -----------------------------------------------
 
+
+// -----------------------------------------------
+// section cards
 .card {
     width: 150px;
     height: 400px;
@@ -369,3 +373,26 @@
     position: sticky;
     top: 120px;
 }
+// /section cards
+// -----------------------------------------------
+
+
+
+
+// -----------------------------------------------
+// section-form
+
+.section-form {
+
+    background-color: #f6f6f6;
+
+    .container {
+
+        padding: 100px 80px ;
+    }
+
+}
+
+
+
+// /section-form
