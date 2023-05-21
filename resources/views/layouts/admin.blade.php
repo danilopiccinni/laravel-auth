@@ -38,6 +38,8 @@
 
     </main>
 
+    @include('admin/partials/infoForm')
+
     @include('admin/partials/footer')
 
 
