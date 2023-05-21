@@ -3,20 +3,38 @@
 
 @section('content')
 
-    <section class="section-admin-show my-5">
+    <section class="section-admin-show">
 
-        <div class="container">
-
-            <div class="card mb-3" style="width: 70%;">
-                <div class="card-body">
-                  <h5 class="card-title">{{ $project->title }}</h5>
-                  <p class="card-text">{{ $project->description }}</p>
-                  <p class="card-text"><small class="text-body-secondary">{{ $project->languages }}</small></p>
+        <section>
+            <div class="image py-5">
+                <div class="container-fliud py-5">
+                    <div class="col-10 offset-1">
+                        <div class="container-image" style="background-image: url({{$project->thumb}})">
+                            <h1>{{$project->title}}</h1>
+                            <div class="opacity"></div>
+                            {{-- <img class="inner-bottom-svg" src="{{Vite::asset('resources/img/wave.svg')}}" alt=""> --}}
+                        </div>
+                    </div>
                 </div>
-                <img src="https://fastly.picsum.photos/id/1/5000/3333.jpg?hmac=Asv2DU3rA_5D1xSe22xZK47WEAN0wjWeFOhzd13ujW4" class="card-img-bottom" alt="...">
-              </div>
+            </div>
+            <img class="svg" src="{{Vite::asset('resources/img/wave.svg')}}" alt="">
+            
+        </section>
 
-        </div>
+
+        <section class="my-5">
+            
+            <div class="container">
+                <p>{{$project->description}}{{$project->description}}{{$project->description}}
+                    {{$project->description}}{{$project->description}}{{$project->description}}
+                    {{$project->description}}{{$project->description}}{{$project->description}}
+                    {{$project->description}}{{$project->description}}{{$project->description}}
+                    {{$project->description}}{{$project->description}}{{$project->description}}
+                </p>
+                
+            </div>
+
+        </section>
 
         <div class="d-flex justify-content-center gap-5 my-5">
             <a class="btn btn-primary" href="{{route('admin.projects.edit', $project)}}">modifica</a>

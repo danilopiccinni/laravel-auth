@@ -18,7 +18,7 @@
                       <div class="card mb-3" style="width: 70%;">
                         <div class="row g-0">
                           <div class="col-md-4">
-                            <img src="https://fastly.picsum.photos/id/1/5000/3333.jpg?hmac=Asv2DU3rA_5D1xSe22xZK47WEAN0wjWeFOhzd13ujW4" class="img-fluid rounded-start" alt="...">
+                            <img src="{{$project->thumb}}" class="img-fluid rounded-start" alt="...">
                           </div>
                           <div class="col-md-8">
                             <div class="card-body">
