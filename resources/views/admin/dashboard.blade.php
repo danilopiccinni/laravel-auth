@@ -3,7 +3,7 @@
 @section('content')
 <section class="section-carousel">
     <div class=" d-flex justify-content-center gap-3 py-5">
-        <div>
+        <div class="animate__animated animate__fadeInLeft animate__delay-2s">
             <div class="carousel carousel-image">
                 <div id="carouselExampleAutoplaying" class="carousel slide carousel-1" data-bs-ride="carousel">
                     <div class="carousel-inner">
@@ -21,7 +21,7 @@
             </div>
         </div>
         <div class="carousel-rignt d-flex flex-column justify-content-center align-items-center">
-            <div class="carousel">
+            <div class="carousel animate__animated animate__fadeInRight animate__delay-2s">
                 <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade" data-bs-ride="carousel">
                     <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -82,25 +82,25 @@
                 <h3>Di Cosa mi occupo</h3>
             </div>
             <div class="cont-list">
-                <ul>
+                <ul >
     
-                    <li>
+                    <li class="animate__animated animate__fadeInDownBig animate__delay-2s">
                         <span>UN TITOLO IN GRASSETTO </span>
                         <span>un po di testo per prendere misure</span> 
                     </li>
-                    <li>
+                    <li class="animate__animated animate__fadeInDown animate__delay-2s">
                         <span>UN TITOLO IN GRASSETTO </span>
                         <span>un po di testo per prendere misure</span> 
                     </li>
-                    <li>
+                    <li class="animate__animated animate__fadeInLeft animate__delay-2s">
                         <span>UN TITOLO IN GRASSETTO </span>
                         <span>un po di testo per prendere misure</span> 
                     </li>
-                    <li>
+                    <li class="animate__animated animate__fadeInUp animate__delay-2s">
                         <span>UN TITOLO IN GRASSETTO </span>
                         <span>un po di testo per prendere misure</span> 
                     </li>
-                    <li>
+                    <li class="animate__animated animate__fadeInUpBig animate__delay-2s">
                         <span>UN TITOLO IN GRASSETTO </span>
                         <span>un po di testo per prendere misure</span> 
                     </li>
@@ -112,23 +112,23 @@
                 <h3>Perche scegliermi</h3>
             </div>
             <div class="cont-list">
-                <ul>
-                    <li>
+                <ul class="animate__animated animate__fadeInRight animate__delay-2s" >
+                    <li class="animate__animated animate__fadeInLeft animate__delay-2s">
                         <strong>1</strong>
                         <span>UN TITOLO IN GRASSETTO </span>
                         <span> elit. Odit, ea. Quidem voluptatem nesciunt porro molestias illum, accusamus quibusdam minus eos beatae architecto in doloremque dolorem fuga distinctio quisquam adipisci reprehenderit.</span> 
                     </li>
-                    <li>
+                    <li class="animate__animated animate__fadeInLeft animate__delay-2s">
                         <strong>2</strong>
                         <span>UN TITOLO IN GRASSETTO </span>
                         <span> elit. Odit, ea. Quidem voluptatem nesciunt porro molestias illum, accusamus quibusdam minus eos beatae architecto in doloremque dolorem fuga distinctio quisquam adipisci reprehenderit.</span> 
                     </li>
-                    <li>
+                    <li class="animate__animated animate__fadeInLeft animate__delay-2s">
                         <strong>3</strong>
                         <span>UN TITOLO IN GRASSETTO </span>
                         <span>. Odit, ea. Quidem voluptatem nesciunt porro molestias illum, accusamus quibusdam minus eos beatae architecto in doloremque dolorem fuga distinctio quisquam adipisci reprehenderit.</span> 
                     </li>
-                    <li>
+                    <li class="animate__animated animate__fadeInLeft animate__delay-2s">
                         <strong>4</strong>
                         <span>UN TITOLO IN GRASSETTO </span>
                         <span> elit. Odit, ea. Quidem voluptatem nesciunt porro molestias illum, accusamus quibusdam minus eos beatae architecto in doloremque dolorem fuga distinctio quisquam adipisci reprehenderit.</span> 
