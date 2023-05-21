@@ -393,6 +393,22 @@
 
 }
 
-
-
 // /section-form
+// -----------------------------------------------
+
+
+
+
+// -----------------------------------------------
+// admin.index.blade
+
+.section-admin-index {
+    li {
+        list-style-type: none;
+
+        a {
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
