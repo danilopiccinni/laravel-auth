@@ -147,32 +147,39 @@
 .banner {
     background-color: #11111f;
 
-    .row {
-        display: flex;
-        justify-content: space-between;
+    .__container {
+
+        padding: 0 5%;
 
 
-        padding-left: 60px;
-        padding-right: 60px;
-        max-width: 1610px;
-        .cont-sx {
-            translate: 0px 7px;
-
-            strong {
-                line-height: 0.50;
+        .row {
+            display: flex;
+            justify-content: space-between;
+    
+            .cont-sx {
+                translate: 0px 7px;
+    
+                strong {
+                    line-height: 0.50;
+                    color: white;
+                    font-size: 100px;
+                    // margin: -7px 0 -4px 0;
+                }
+            }
+            .cont-dx{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+    
                 color: white;
-                font-size: 100px;
-                // margin: -7px 0 -4px 0;
+    
+                *{
+                    text-align: end;
+                }
             }
         }
-        .cont-dx{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-
-            color: white;
-        }
     }
+
  }
 
 // /banner

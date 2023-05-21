@@ -151,7 +151,7 @@
 
 
 <section class="banner">
-    <div class=" container-fluid ">
+    <div class="__container">
         <div class="row">
             <div class="cont-sx col-8">
                 <strong>
