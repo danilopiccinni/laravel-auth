@@ -22,10 +22,10 @@
         </div>
         <div class="carousel-rignt d-flex flex-column justify-content-center align-items-center">
             <div class="carousel">
-                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade" data-bs-ride="carousel">
                     <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <div class="text">
+                        <div class="text d-block w-100">
                             <h3>CREAZIONE SITI WEB PER QUALUNQUE ATTIVITA'</h3>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt fuga a laudantium. Facilis placeat harum quis, temporibus omnis molestiae earum recusandae labore distinctio unde, commodi culpa voluptatibus voluptatum asperiores aut.
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat libero similique quisquam nemo commodi et amet necessitatibus, dolores quam magni hic doloribus alias ad, praesentium enim, totam atque iusto consequatur!
@@ -33,7 +33,7 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <div class="text">
+                        <div class="text d-block w-100">
                             <h3>CONSULENZA E ANALISI TECNICA SITO WEB</h3>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia non cumque minus quas libero culpa facere ab veniam omnis quaerat, illo fuga incidunt possimus accusamus corporis dolorum officiis officia consequatur!
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur possimus ullam, quam dolorem ratione animi dolor autem quisquam ea a molestias voluptatum! Harum ea animi dolor quo ullam sed maiores.
@@ -41,7 +41,7 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <div class="text">
+                        <div class="text d-block w-100">
                             <h3>CREAZIONE LOGHI ED ELEMENTI GRAFICI PER I SOCIAL</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, hic ut. Officiis beatae tenetur, magni, ducimus sit quam et hic officia harum molestiae, tempora odit aperiam distinctio est. Provident, magnam!
                                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem perspiciatis sequi deserunt aperiam modi quis dicta, aspernatur, neque laudantium id voluptate voluptatibus blanditiis ducimus minus aliquid ab eos fugiat beatae.
