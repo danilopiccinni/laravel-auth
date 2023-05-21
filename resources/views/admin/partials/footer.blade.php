@@ -1,5 +1,5 @@
+<img class="wave-footer" src="{{Vite::asset('resources/img/wave.svg')}}" alt="">
 <div class="footer-container">
-
     <div class="container">
 
         <div class="footer-sx">

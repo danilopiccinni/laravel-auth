@@ -37,7 +37,7 @@
         @yield('content')
 
     </main>
-    
+
     @include('admin/partials/footer')
 
 

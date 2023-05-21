@@ -5,7 +5,7 @@
     <div class=" d-flex justify-content-center gap-3 py-5">
         <div>
             <div class="carousel carousel-image">
-                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div id="carouselExampleAutoplaying" class="carousel slide carousel-1" data-bs-ride="carousel">
                     <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="https://fastly.picsum.photos/id/1/5000/3333.jpg?hmac=Asv2DU3rA_5D1xSe22xZK47WEAN0wjWeFOhzd13ujW4" class="d-block w-100" alt="...">
@@ -53,8 +53,11 @@
             </div>
         </div>
     </div>
-
 </section>
+<img class="wave-carousel" src="{{Vite::asset('resources/img/wave.svg')}}" alt="">
+    
+    
+
 
 
 <section>
@@ -67,6 +70,7 @@
     </div>
 </section>
 
+
 <section class="section-full-screen">
 
     <div class="d-flex">
@@ -74,72 +78,64 @@
             <img src="https://fastly.picsum.photos/id/2/5000/3333.jpg?hmac=_KDkqQVttXw_nM-RyJfLImIbafFrqLsuGO5YuHqD-qQ" class="img-fluid" alt="...">
         </div>
         <div class="column-2 col-4 text-end column">
-            <ul>
-                <li>un po di testo per prendere misure</li>
-                <li>un po di testo per prendere misure</li>
-                <li>un po di testo per prendere misure</li>
-                <li>un po di testo per prendere misure</li>
-                <li>un po di testo per prendere misure</li>
-                <li>un po di testo per prendere misure</li>
-                <li>un po di testo per prendere misure</li>
-                <li>un po di testo per prendere misure</li>
-                <li>un po di testo per prendere misure</li>
-                <li>un po di testo per prendere misure</li>
-                <li>un po di testo per prendere misure</li>
-                <li>un po di testo per prendere misure</li>
-                <li>un po di testo per prendere misure</li>
-                <li>un po di testo per prendere misure</li>
-                <li>un po di testo per prendere misure</li>
-                <li>un po di testo per prendere misure</li>
-                <li>un po di testo per prendere misure</li>
-                <li>un po di testo per prendere misure</li>
-                <li>un po di testo per prendere misure</li>
-                <li>un po di testo per prendere misure</li>
-                <li>un po di testo per prendere misure</li>
-                <li>un po di testo per prendere misure</li>
-                <li>un po di testo per prendere misure</li>
-                <li>un po di testo per prendere misure</li>
-                <li>un po di testo per prendere misure</li>
-                <li>un po di testo per prendere misure</li>
-                <li>un po di testo per prendere misure</li>
-                <li>un po di testo per prendere misure</li>
-                <li>un po di testo per prendere misure</li>
-                <li>un po di testo per prendere misure</li>
-            </ul>
+            <div>
+                <h3>Di Cosa mi occupo</h3>
+            </div>
+            <div class="cont-list">
+                <ul>
+    
+                    <li>
+                        <span>UN TITOLO IN GRASSETTO </span>
+                        <span>un po di testo per prendere misure</span> 
+                    </li>
+                    <li>
+                        <span>UN TITOLO IN GRASSETTO </span>
+                        <span>un po di testo per prendere misure</span> 
+                    </li>
+                    <li>
+                        <span>UN TITOLO IN GRASSETTO </span>
+                        <span>un po di testo per prendere misure</span> 
+                    </li>
+                    <li>
+                        <span>UN TITOLO IN GRASSETTO </span>
+                        <span>un po di testo per prendere misure</span> 
+                    </li>
+                    <li>
+                        <span>UN TITOLO IN GRASSETTO </span>
+                        <span>un po di testo per prendere misure</span> 
+                    </li>
+                </ul>
+            </div>
         </div>
         <div class="column-3 col-4 column">
-            <ul>
-                <li>un po di testo per prendere misure</li>
-                <li>un po di testo per prendere misure</li>
-                <li>un po di testo per prendere misure</li>
-                <li>un po di testo per prendere misure</li>
-                <li>un po di testo per prendere misure</li>
-                <li>un po di testo per prendere misure</li>
-                <li>un po di testo per prendere misure</li>
-                <li>un po di testo per prendere misure</li>
-                <li>un po di testo per prendere misure</li>
-                <li>un po di testo per prendere misure</li>
-                <li>un po di testo per prendere misure</li>
-                <li>un po di testo per prendere misure</li>
-                <li>un po di testo per prendere misure</li>
-                <li>un po di testo per prendere misure</li>
-                <li>un po di testo per prendere misure</li>
-                <li>un po di testo per prendere misure</li>
-                <li>un po di testo per prendere misure</li>
-                <li>un po di testo per prendere misure</li>
-                <li>un po di testo per prendere misure</li>
-                <li>un po di testo per prendere misure</li>
-                <li>un po di testo per prendere misure</li>
-                <li>un po di testo per prendere misure</li>
-                <li>un po di testo per prendere misure</li>
-                <li>un po di testo per prendere misure</li>
-                <li>un po di testo per prendere misure</li>
-                <li>un po di testo per prendere misure</li>
-                <li>un po di testo per prendere misure</li>
-                <li>un po di testo per prendere misure</li>
-                <li>un po di testo per prendere misure</li>
-                <li>un po di testo per prendere misure</li>
-            </ul>
+            <div>
+                <h3>Perche scegliermi</h3>
+            </div>
+            <div class="cont-list">
+                <ul>
+                    <li>
+                        <strong>1</strong>
+                        <span>UN TITOLO IN GRASSETTO </span>
+                        <span> elit. Odit, ea. Quidem voluptatem nesciunt porro molestias illum, accusamus quibusdam minus eos beatae architecto in doloremque dolorem fuga distinctio quisquam adipisci reprehenderit.</span> 
+                    </li>
+                    <li>
+                        <strong>2</strong>
+                        <span>UN TITOLO IN GRASSETTO </span>
+                        <span> elit. Odit, ea. Quidem voluptatem nesciunt porro molestias illum, accusamus quibusdam minus eos beatae architecto in doloremque dolorem fuga distinctio quisquam adipisci reprehenderit.</span> 
+                    </li>
+                    <li>
+                        <strong>3</strong>
+                        <span>UN TITOLO IN GRASSETTO </span>
+                        <span>. Odit, ea. Quidem voluptatem nesciunt porro molestias illum, accusamus quibusdam minus eos beatae architecto in doloremque dolorem fuga distinctio quisquam adipisci reprehenderit.</span> 
+                    </li>
+                    <li>
+                        <strong>4</strong>
+                        <span>UN TITOLO IN GRASSETTO </span>
+                        <span> elit. Odit, ea. Quidem voluptatem nesciunt porro molestias illum, accusamus quibusdam minus eos beatae architecto in doloremque dolorem fuga distinctio quisquam adipisci reprehenderit.</span> 
+                    </li>
+                </ul>
+
+            </div>
         </div>
     </div>
 
