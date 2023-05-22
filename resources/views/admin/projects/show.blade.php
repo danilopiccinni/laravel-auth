@@ -25,13 +25,69 @@
         <section class="my-5">
             
             <div class="container">
-                <p>{{$project->description}}{{$project->description}}{{$project->description}}
-                    {{$project->description}}{{$project->description}}{{$project->description}}
-                    {{$project->description}}{{$project->description}}{{$project->description}}
-                    {{$project->description}}{{$project->description}}{{$project->description}}
+                <p>
                     {{$project->description}}{{$project->description}}{{$project->description}}
                 </p>
-                
+            </div>
+
+        </section>
+
+        <section>
+            <div class="container text-center">
+               <em>Git-Hub link: </em><a href="">{{ $project->repo }}</a>  
+            </div>
+        </section>
+
+        <section class="details-project my-5">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-4 column-1">
+                        asd
+                    </div>
+                    <div class="col-8 column-2">
+                        <div class="p-5">
+                            <div class="row my-5">
+                                <h3>Progetto</h3>
+                                <div class="col-4">
+                                    <h6>CLIENTE</h6>
+                                    <span>Aereonautica spaziale Elon</span> 
+                                </div>
+                                <div class="col-4">
+                                    <h6>LOCATION</h6>
+                                    <span>Presso la Luna</span>  
+                                </div>
+                                <div class="col-4">
+                                    <h6>ANNO</h6>
+                                    <span>2056</span>
+                                </div>
+                            </div>
+                            <div class="row my-5">
+                                <h3>TASK</h3>
+                                <div class="col-4 pt-3">
+                                    <h4>1</h4>
+                                    <h6>UN TITOLINO DEL TASK</h6>
+                                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo voluptas asperiores distinctio alias molestiae laboriosam accusamus exercitationem necessitatibus dolores error porro eligendi deleniti, hic aspernatur quam? Eius nisi nesciunt quod.</span> 
+                                </div>
+                                <div class="col-4 pt-3">
+                                    <h4>2</h4>
+                                    <h6>UN TITOLINO DEL TASK</h6>
+                                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo voluptas asperiores distinctio alias molestiae laboriosam accusamus exercitationem necessitatibus dolores error porro eligendi deleniti, hic aspernatur quam? Eius nisi nesciunt quod.</span>  
+                                </div>
+                                <div class="col-4 pt-3">
+                                    <h4>3</h4>
+                                    <h6>UN TITOLINO DEL TASK</h6>
+                                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo voluptas asperiores distinctio alias molestiae laboriosam accusamus exercitationem necessitatibus dolores error porro eligendi deleniti, hic aspernatur quam? Eius nisi nesciunt quod.</span>
+                                </div>
+                                <div class="col-4 pt-3">
+                                    <h4>4</h4>
+                                    <h6>UN TITOLINO DEL TASK</h6>
+                                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo voluptas asperiores distinctio alias molestiae laboriosam accusamus exercitationem necessitatibus dolores error porro eligendi deleniti, hic aspernatur quam? Eius nisi nesciunt quod.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </section>
