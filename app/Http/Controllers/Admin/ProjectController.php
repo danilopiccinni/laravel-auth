@@ -126,11 +126,26 @@ class ProjectController extends Controller
         $formData = $request->all();
 
         $validator = Validator::make($formData, [
-            'title' => 'required',
-            'repo' => 'required',
-            'description' => 'required',
-            'languages' => 'required',
-            'thumb' => 'required',
+            'title' => 'required|max:255|unique:App\Models\Project,title',
+            'repo' => 'required|max:255',
+            'description' => 'required|max:500',
+            'languages' => 'required|max:500',
+            'thumb' => 'required|max:500|active_url|url',
+        ],[
+            'title.required' => 'Questo campo è richiesto, non puoi lasciarlo vuoto',
+            'title.max' => 'Raggiunta lunghezza massima di caratteri, massimo :max',
+            'title.unique' => 'Questo titolo si riferisce a un progetto gia esistente',
+            'repo.required' => 'Questo campo è richiesto, non puoi lasciarlo vuoto',
+            'repo.max' => 'Raggiunta lunghezza massima di caratteri, massimo :max',
+            'description.required' => 'Questo campo è richiesto, non puoi lasciarlo vuoto',
+            'description.max' => 'Raggiunta lunghezza massima di caratteri, massimo :max',
+            'languages.required' => 'Questo campo è richiesto, non puoi lasciarlo vuoto',
+            'languages.max' => 'Raggiunta lunghezza massima di caratteri, massimo :max',
+            'thumb.required' => 'Questo campo è richiesto, non puoi lasciarlo vuoto',
+            'thumb.max' => 'Raggiunta lunghezza massima di caratteri, massimo :max',
+            'thumb.active_url' => 'Questo link per non è funzionante',
+            'thumb.url' => 'Non hai inserito un link, (Https://.... oppure Http://)'
+
         ])->validate();
 
         return $validator;

@@ -35,6 +35,8 @@
         </ul>
 
     </div>
+
+    <a href="{{route('admin.projects.create')}}">Crea nuovo progetto</a>
     
     
 
