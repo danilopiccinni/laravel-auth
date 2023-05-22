@@ -503,7 +503,22 @@
         }
 
         .column-2 {
-            background-color: #a4a4a4;
+        background-color: #f6f6f6;
+        }
+    }
+
+    .section-color-font {
+
+        .cont-color {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+
+            .color-square {
+                width: 50px;
+                height: 50px;
+                background-color: #3fb435;
+            }
         }
     }
 }
@@ -552,4 +567,14 @@
 
 
 // /infoForm
+// -----------------------------------------------
+
+
+// -----------------------------------------------
+// section color-font
+
+
+
+
+// // /section color-font
 // -----------------------------------------------

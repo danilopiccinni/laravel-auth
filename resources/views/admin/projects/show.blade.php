@@ -40,7 +40,7 @@
 
         <section class="details-project my-5">
 
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col-4 column-1">
                         asd
@@ -84,6 +84,54 @@
                                     <h6>UN TITOLINO DEL TASK</h6>
                                     <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo voluptas asperiores distinctio alias molestiae laboriosam accusamus exercitationem necessitatibus dolores error porro eligendi deleniti, hic aspernatur quam? Eius nisi nesciunt quod.</span>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="section-color-font">
+
+            <div class="container py-5">
+                <div class="row my-5 ">
+                    <div class="col-2">
+                        <h4>Color Scheme</h4>
+                    </div>
+                    <div class="col-10">
+                        <div class="row">
+                            <div class="col-2 cont-color">
+                                <div class="color-square"></div>
+                                <span>#ffffff</span>
+                            </div>
+                            <div class="col-2 cont-color">
+                                <div class="color-square"></div>
+                                <span>#ffffff</span>
+                            </div>
+                            <div class="col-2 cont-color">
+                                <div class="color-square"></div>
+                                <span>#ffffff</span>
+                            </div>
+                            <div class="col-2 cont-color">
+                                <div class="color-square"></div>
+                                <span>#ffffff</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row py-5">
+                    <div class="col-2">
+                        <h4>Font Family</h4>
+                    </div>
+                    <div class="col-10">
+                        <div class="row ">
+                            <div class="col-2">
+                                <span>Font 1</span>
+                            </div>
+                            <div class="col-2">
+                                <span>Font 2</span>
                             </div>
                         </div>
                     </div>
