@@ -140,6 +140,26 @@
 
         </section>
 
+
+        <section class="section-previews">
+            @for($i=0 ; $i < 4 ; $i++)
+            <div class="row my-5">
+                <div class="col-8 d-flex justify-content-center">
+                    <div class="cont-image">
+                        img
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="cont-details">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus porro maiores quaerat in ea praesentium repudiandae illo repellendus nesciunt maxime voluptas ipsam, repellat cupiditate incidunt odit atque accusantium at. Consequuntur.</p>
+                    </div>
+                </div>
+            </div>
+            @endfor
+
+
+        </section>
+
         <div class="d-flex justify-content-center gap-5 my-5">
             <a class="btn btn-primary" href="{{route('admin.projects.edit', $project)}}">modifica</a>
 

@@ -521,6 +521,20 @@
             }
         }
     }
+
+    .section-previews {
+        .cont-image {
+            width: 70%;
+            height: 800px;
+            background-color: #a4a4a4;
+        }
+
+        .cont-details {
+            position: sticky;
+            top: 120px;
+            width: 65%;
+        }
+    }
 }
 
 
