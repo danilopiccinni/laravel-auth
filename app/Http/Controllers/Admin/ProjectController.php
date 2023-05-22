@@ -128,7 +128,7 @@ class ProjectController extends Controller
         $validator = Validator::make($formData, [
             'title' => 'required|max:255|unique:App\Models\Project,title',
             'repo' => 'required|max:255',
-            'description' => 'required|max:500',
+            'description' => 'required|max:1000',
             'languages' => 'required|max:500',
             'thumb' => 'required|max:500|active_url|url',
         ],[
